@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 
   .headlineWrapper {
     display: flex;
@@ -30,10 +31,39 @@ body {
     font-family: "saira";
 
     .textWrapper {
+      p {
+        color: var(--orange-100);
+        font-size: 32px;
+        margin-bottom: 1rem;
+        font-weight: bold;
+      }
     }
 
     .inputWrapper {
+      input {
+        width: 455px;
+        height: 65px;
+        border-radius: 8px 0px 0px 8px;
+        background-color: var(--blue-900);
+        color: #ffffff;
+      }
+      input::placeholder {
+        color: var(--orange-700);
+        text-align: center;
+        font-family: "saira";
+        font-size: 24px;
+      }
+
       button {
+        border: 0;
+        width: 117px;
+        height: 65px;
+        border-radius: 0px 8px 8px 0px;
+        background-color: var(--gray-800);
+        color: var(--orange-700);
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: bold;
       }
     }
   }
