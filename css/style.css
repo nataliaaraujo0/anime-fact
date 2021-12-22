@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --blue-900: #242026;
+  --blue-800: #2c272e;
+  --gray-800: #3b3b3b;
+  --off-white: #fbf7f7;
+  --orange-100: #f8d6af;
+  --orange-700: #fc9c2b;
+}
+
+body {
+  background-color: var(--blue-800);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .headlineWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "saira";
+}
+/*# sourceMappingURL=style.css.map */

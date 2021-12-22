@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blue-900: #242026;
+  --blue-800: #2c272e;
+
+  --gray-800: #3b3b3b;
+
+  --off-white: #fbf7f7;
+
+  --orange-100: #f8d6af;
+  --orange-700: #fc9c2b;
+}
+body {
+  background-color: var(--blue-800);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .headlineWrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: "saira";
+
+    .textWrapper {
+    }
+
+    .inputWrapper {
+      button {
+      }
+    }
+  }
+}
